@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(rgba(81, 180, 232, 1), rgba(213, 243, 255, 1),
+  rgba(81, 180, 232, 1));
+  background-image: linear-gradient(0deg, #63a4ff, #83eaf1, 74%);
+  min-height: 100vh;
+
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  margin: 0;
+}
+

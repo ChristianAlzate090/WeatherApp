@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+
+.data_container {
+    
+    width: 320px;
+    height: 210px;
+    background: linear-gradient(11deg, #E5F2FF 79%, transparent 20%);
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_temp {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time_city {
+    display: flex;
+    justify-content: space-between;
+    color: #026EED;
+}
+
+.city {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 23px
+}
+
+.time {
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: end;
+
+    font-family: 'Lato';
+    
+    color: #026EED;  
+}
+
+.image img {
+    width: 150px;
+    
+}
+
+.data_container .temperature {
+    font-size: 55px; 
+    font-weight: 300; 
+    line-height: 115px;
+    font-family: 'Lato';
+
+    color: #026EED;
+
+}
